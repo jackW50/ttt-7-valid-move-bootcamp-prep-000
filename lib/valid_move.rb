@@ -5,5 +5,6 @@ end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
 def position position_taken?(array, index)
-  if array[index] == " " || array[index]
+  if array[index] == " " || array[index] == "" || array[index] == nil
+      false
 end
