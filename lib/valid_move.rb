@@ -10,4 +10,5 @@ def position position_taken?(array, index)
       
   else 
     true
+  end 
 end
